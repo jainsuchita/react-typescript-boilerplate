@@ -1,5 +1,5 @@
 import * as React from "react";
-import Hello from "@components/Hello";
+import { Hello } from "@components";
 import "./App.css";
 
 class App extends React.Component {

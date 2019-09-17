@@ -1,5 +1,5 @@
 import * as React from "react";
-import { getExclamationMarks } from "../helpers";
+import { getExclamationMarks } from "../../helpers";
 
 export interface IProps {
   name: string;
