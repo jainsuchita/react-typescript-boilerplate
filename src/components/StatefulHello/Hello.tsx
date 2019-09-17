@@ -66,12 +66,14 @@ const GreetingContainer = styled.div`
 `;
 
 const Container = styled.div`
+  margin-top: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 24px;
   background: gainsboro;
+  margin-bottom: 48px;
 `;
 
 const Button = styled.button`
