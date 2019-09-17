@@ -7,6 +7,12 @@ A simple boilerplate developed using
 - StyledComponents
 - Enzyme
 
+### Components
+
+- Stateful
+- Stateless
+- Using Hooks
+
 ## Installation
 
 ```bash
