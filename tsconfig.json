@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": "./src",
+    "types": ["react", "jest", "node"],
     "paths": {
       "@components": ["components"]
     },

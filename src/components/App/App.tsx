@@ -1,21 +1,27 @@
 import * as React from "react";
-import { Hello } from "@components";
-import "./App.css";
+
+// Styling
+import styled from "styled-components";
+
+// Local components
+import { StateHello } from "@components";
 
 class App extends React.Component {
   public render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <Hello name="suchita" enthusiasmLevel={10} />
-      </div>
+      <MainContainer>
+        {/* <Hello name="suchita" enthusiasmLevel={10} />; */}
+        <StateHello name="suchita" enthusiasmLevel={20} />
+      </MainContainer>
     );
   }
 }
+
+const MainContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+`;
 
 export default App;
