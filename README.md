@@ -1,6 +1,11 @@
-# tictactoe-ts
+# React-Typescript
 
-Tic Tac Toe implementation in TypeScript.
+A simple boilerplate developed using
+
+- React
+- Typescript
+- StyledComponents
+- Enzyme
 
 ## Installation
 
