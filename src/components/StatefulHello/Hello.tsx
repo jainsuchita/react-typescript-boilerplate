@@ -16,7 +16,10 @@ interface IState {
 class Hello extends React.Component<IProps, IState> {
   constructor(props: IProps) {
     super(props);
-    this.state = { currentEnthusiasm: props.enthusiasmLevel || 1 };
+    this.state = {
+      currentEnthusiasm:
+        props.enthusiasmLevel === undefined ? 1 : props.enthusiasmLevel
+    };
   }
 
   public onIncrement = () =>
@@ -67,6 +70,8 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 24px;
+  background: gainsboro;
 `;
 
 const Button = styled.button`

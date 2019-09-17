@@ -11,7 +11,7 @@ class App extends React.Component {
     return (
       <MainContainer>
         {/* <Hello name="suchita" enthusiasmLevel={10} />; */}
-        <StateHello name="suchita" enthusiasmLevel={20} />
+        <StateHello name="suchita" enthusiasmLevel={10} />
       </MainContainer>
     );
   }
